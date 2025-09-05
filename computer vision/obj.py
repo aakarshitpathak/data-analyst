@@ -2,7 +2,6 @@ from ultralytics import YOLO
 
 # pre-trained YOLOv8 Nano model (fast aur lightweight)
 model = YOLO("yolov8n.pt")
-w
 # Webcam se live object detection (source=0 matlab default camera)
 model.predict(
     source = 0, #webcam
